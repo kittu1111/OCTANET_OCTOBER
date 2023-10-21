@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="naruto.css">
+  <title>chocolate</title>
+</head>
+<body>
+ <nav>
+
+   <div class="logo"><br>CHOCO ROCCO</div>
+
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About Us</a></li>
+       <li><a href="#">Menu</a></li>
+       <li><a href="#">Delivery</a></li>
+       <li><a href="#">Contact</a></li>
+       <button type="button">ORDER NOW</button>
+     </ul>
+   </div>
+ </nav>
+
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Flavours</a>
+     <a href="#">Contact Us</a>
+     <a href="#"><button type="button">Login</button> </a>
+   </div>
+   
+   
+   
+   <div class="row">
+     <div class="column1">
+       <h1><br>&nbsp;&nbsp;&nbsp;&nbsp;Perfect Taste and Texture </h1>
+       <p>Chocolate is a delicious and popular tree enjoyed by people all over the world.Our new peace of bar where enjoyable by every humans in the world......</p>
+     </div>
+ </div>
+ 
+
+  <div class="container">
+        <div class="image-container">
+            <img src="https://health.clevelandclinic.org/wp-content/uploads/sites/3/2015/03/chocolateWhiteDark-454384771-770x533-1.jpg" height="300" width="350">
+            <img src="https://worldstrides.com/wp-content/uploads/2018/02/iStock-155097702-min.jpg" height="300" width="350">
+        </div>
+        <div class="content">
+      
+
+        </div>
+    </div>
+
+</body>
+</html>
